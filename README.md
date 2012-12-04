@@ -70,7 +70,7 @@ footer.html模版文件示例：
 <li>${md5($one)}-{$one}</li>
 <!--{/if}-->
 <!--{/loop}-->
-···
+```
 输出：
 f3f7eb1421dcfed9a2614712ec608f1b-alen
 37670a9c2cc598bcc271612af0617c3c-blen
