@@ -1,3 +1,3 @@
 ZTemplate
 =========
-ZTemplate is a lightly but very useful templating engine writen by php just with about 60 lines codes.
+ZTemplate是超轻量级的PHP模版引擎，全部实现仅仅60行代码，简单使用。
