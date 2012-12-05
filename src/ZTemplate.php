@@ -34,7 +34,7 @@ function __parse($tFile,$cFile) {
     if(!($fileContent = file_get_contents($tFile)))
         return false;
 
-	$fileContent = preg_replace( '/^(\xef\xbb\xbf)/', '', $fileContent ); //EFBBBF   
+    $fileContent = preg_replace( '/^(\xef\xbb\xbf)/', '', $fileContent ); //EFBBBF   
     $fileContent = preg_replace("/\<\!\-\-\s*\\\$\{(.+?)\}\s*\-\-\>/ies", "__replace('<?php \\1; ?>')", $fileContent);
     $fileContent = preg_replace("/\{(\\\$[a-zA-Z0-9_\[\]\\\ \-\'\,\%\*\/\.\(\)\>\'\"\$\x7f-\xff]+)\}/s", "<?php echo \\1; ?>", $fileContent);
     $fileContent = preg_replace("/\\\$\{(.+?)\}/ies", "__replace('<?php echo \\1; ?>')", $fileContent);
