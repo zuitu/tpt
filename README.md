@@ -1,6 +1,6 @@
 关于ZTemplate
 =============
-ZTemplate是超轻量级的PHP模版引擎，全部实现仅仅60行代码，简单实用。
+ZTemplate是超轻量级的PHP模版引擎，全部实现仅仅60行代码，简单实用，非常适合Utility级别的应用。
 
 
 配置ZTemplate
@@ -24,6 +24,7 @@ $users = array('alen', 'blen', 'calon');
 include template('main');
 ```
 header.html模版文件示例:
+使用变量
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" id="bb5c110b0512ff89999a055118a84509">
@@ -35,6 +36,7 @@ header.html模版文件示例:
 <body>
 ```
 main.html模版文件示例:
+使用loop循环
 ```html
 <!--{include header}-->
 <!--{loop $users $index $one}-->
