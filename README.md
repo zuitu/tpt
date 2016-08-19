@@ -15,7 +15,7 @@ define('DIR_TEMPLATE','/template_diy');
 如果不想做任何配置，tiy使用compiled和template作为其默认的参数值。
 
 
-使用ZTemplate
+使用tiy
 -------------
 php文件示例:
 ```php
