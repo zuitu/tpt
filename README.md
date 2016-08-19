@@ -1,21 +1,21 @@
-关于tiy
+关于tyn
 =============
-tiy是超轻量级的PHP模版引擎，全部实现仅仅60行代码，简单实用，非常适合Utility级别的应用。
+tyn是超轻量级的PHP模版引擎，全部实现仅仅60行代码，简单实用，非常适合Utility级别的应用。
 
 
-配置tiy
+配置tyn
 -------------
-tiy只包括两个配置参数，DIR_COMPILED和DIR_TEMPLATE，分别表示模版编译目录和模版文件目录。
+tyn只包括两个配置参数，DIR_COMPILED和DIR_TEMPLATE，分别表示模版编译目录和模版文件目录。
 
 自定义配置如此的简单：
 ```php
 define('DIR_COMPILED','/compiled_diy');
 define('DIR_TEMPLATE','/template_diy');
 ```
-如果不想做任何配置，tiy使用compiled和template作为其默认的参数值。
+如果不想做任何配置，tyn使用compiled和template作为其默认的参数值。
 
 
-使用tiy
+使用tyn
 -------------
 php文件示例:
 ```php
