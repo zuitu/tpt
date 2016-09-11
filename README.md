@@ -1,11 +1,11 @@
-关于tyn
+关于tpt
 =============
-tyn是超轻量级的PHP模版引擎，全部实现仅仅60行代码，简单实用，非常适合Utility级别的应用。
+tpt是超轻量级的PHP模版引擎，全部实现仅仅60行代码，简单实用，非常适合Utility级别的应用。
 
 
-配置tyn
+配置tpt
 -------------
-tyn只包括两个配置参数，DIR_COMPILED和DIR_TEMPLATE，分别表示模版编译目录和模版文件目录。
+tpt只包括两个配置参数，DIR_COMPILED和DIR_TEMPLATE，分别表示模版编译目录和模版文件目录。
 
 自定义配置如此的简单：
 ```php
